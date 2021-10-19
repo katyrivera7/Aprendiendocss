@@ -1,0 +1,31 @@
+/* CSS Cascade Style Sheet */
+h1, h2, h3{
+    color: rgb(93, 208, 212);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 5rem;
+    /* 1rem = 16 px */
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+section{
+    background-color: cornsilk;
+    padding: 2rem;
+}
+.noticia-destacada h2 {
+background-color: rgb(226, 223, 223);
+}
+#este-articulo h2{
+    background-color: darkseagreen;
+}
+ul#nav li.active a {
+    color: dodgerblue;
+}
+.articulo{
+    font-style: italic;
+}
