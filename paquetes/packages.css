@@ -10,7 +10,8 @@ main {
 .package:hover,
 .package:active {
     box-shadow: 2px 2px 4px;
-    border-color: coral ;
+    border-color: coral !important;
+    /*border-color: coral !important;*/
 }
 
 .package a {
@@ -31,12 +32,27 @@ font-size: 20px;
 color: rgb(85, 85, 85);
 background: white;
 }
+
+.clearfix{
+    clear: both;
+}
+
 #plus  {
     background-color: rgba(250, 223, 165, 0.219)
 }
 #gratis {
 background:  rgba(250, 223, 165, 0.863);
+float: right;
+border-right: none;
+border-left: 4px solid rgb(250, 223, 165) ;
+text-align: right;
 }
+/* #gratis:hover,
+#gratis:active{
+    border-left-color: rgb(250, 223, 165) ;
+} */
+
+
 #premium{
     background:  rgba(250, 223, 165, 0.445);
     }

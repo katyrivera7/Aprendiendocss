@@ -15,6 +15,13 @@
      font-family: 'Anton', sans-serif; 
  } 
 
+.plan__list  {
+width: 80%;
+margin: auto;
+text-align: center;
+}
+
+
  .plan {
      background: rgb(250, 223, 165);
      text-align: center;
