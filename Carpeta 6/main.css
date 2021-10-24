@@ -24,14 +24,10 @@ body{
         border: 5px solid black;
         margin: 10px;
     }
-.parent .child-1{
-    position: fixed;
-    width: 400px;
-    top: 0;
-    left: 0;
-    margin: 0;
-    width: 100%;
-    box-sizing: border-box;
 
+.parent .child-1{
+position: relative;
+top: 300px;
+right: 50px;
 }
 
