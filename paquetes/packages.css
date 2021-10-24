@@ -37,9 +37,14 @@ main {
 
 .package__badge{
     position: fixed;
-    top: 50px;
+    top: 0x;
+    right: 0;
     left: 400px;
     margin: 20px; 
+    font-size: 12px;
+    color: white;
+    background: salmon;
+    padding: 8px ;
 }
 .package__subtitle {
    color: gray; 
