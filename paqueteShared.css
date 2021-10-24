@@ -7,8 +7,9 @@ body {
 }
 .titulo-principal {
     width: 100%;
+    position: fixed;
     background-color: rgb(250, 223, 165);
-    padding: 10px 20px;
+    padding: 8px 16px;
 }
 .titulo-principal > div {
     display: inline-block;
