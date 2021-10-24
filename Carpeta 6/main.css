@@ -4,18 +4,23 @@ html{
     border: 5px solid white;
     margin: 15px;
     height: 2000px;
+    overflow: auto;
 }
 body{
     background: chocolate;
     padding: 20px;
     border: 5px solid black;
     margin: 0;
+    overflow: hidden;
 }
 .parent{
     background: white;
     padding: 20px;
     border: 5px solid black;
     margin: 0;
+    position: relative;
+    top: 200px;
+
 }
 .parent div {
         background: rgb(218, 218, 218);
@@ -24,10 +29,4 @@ body{
         border: 5px solid black;
         margin: 10px;
     }
-
-.parent .child-1{
-position: relative;
-top: 300px;
-right: 50px;
-}
 
