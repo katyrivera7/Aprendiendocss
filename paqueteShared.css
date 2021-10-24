@@ -10,6 +10,7 @@ body {
     position: fixed;
     background-color: rgb(250, 223, 165);
     padding: 8px 16px;
+    z-index: 0;
 }
 .titulo-principal > div {
     display: inline-block;
