@@ -8,15 +8,15 @@ body {
 .titulo-principal {
     width: 100%;
     position: fixed;
-    background-color: rgb(250, 223, 165);
-    padding: 8px 16px;
+    background-color: #175264;
+    padding: 8px 14px;
     z-index: 1;
 }
 .titulo-principal > div {
     display: inline-block;
     } 
  .main-header_brand{
-     color: rgb(248, 106, 90);
+     color: #fdc93f;
      text-decoration: none;
      font-weight: 700;
      font-size: 22px;
@@ -40,7 +40,7 @@ body {
     text-decoration: none;
     font-weight: bold;
     padding: 3px 0;
-    color: rgb(248, 106, 90) 
+    color: #f49744 
 }  
 
 .main-nav_item a:hover, 
@@ -52,11 +52,11 @@ body {
     color: white;
     padding: 8px 16px;
     border-radius:8px ;
-    background:salmon
+    background:#f49744;
 }
 .main-nav_item--cta a:hover,
 .main-nav_item--cta a:active{
-    color: salmon;
+    color: #f49744;
     background: white;
     border: none;
     }
@@ -93,8 +93,8 @@ body {
 .button {
     color: white;
     font: inherit;
-    background-color: sienna; 
-    border: 1.5px solid sienna; 
+    background-color: #175264; 
+    border: 1.5px solid #175264; 
     padding: 8px;
     border-radius: 8px;  
     font-weight: bold;
@@ -104,7 +104,7 @@ body {
     .button:hover,
     .button:active{
         background: white;
-        color: sienna;
+        color: #175264;
     } 
     
     .button:focus{

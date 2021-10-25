@@ -3,7 +3,7 @@ main {
 }
 
 .background {
-    background: url(../1920x1200-px-Andes-Caldera-clouds-Ecuador-grass-1077801-wallhere.com.jpg);
+    background: url(../fondoinicio.jpg);
     width: 100%;
     height: 100%;
     position: fixed;
@@ -13,7 +13,7 @@ main {
 .package {
     width: 80%;
     margin: 16px 0;
-    border: 4px solid  rgb(250, 223, 165);
+    border: 4px solid  #ee7043;
     border-left: none;
     position: relative;
 }
@@ -23,7 +23,7 @@ main {
 .package:hover,
 .package:active {
     box-shadow: 2px 2px 4px;
-    border-color: coral !important;
+    border-color: #175264 !important;
     /*border-color: coral !important;*/
 }
 
@@ -36,23 +36,22 @@ main {
 
 
 .package__badge{
-    position: fixed;
-    top: 0x;
+    position: absolute;
+    top: 0;
     right: 0;
-    left: 400px;
-    margin: 20px; 
-    font-size: 12px;
+    margin: 35px; 
+    font-size: 24px;
     color: white;
-    background: salmon;
-    padding: 8px ;
+    background: #175264;
+    padding: 3px ;
 }
 .package__subtitle {
-   color: gray; 
+   color: white; 
 }
 
 .package__info{
 padding: 16px;
-border: 1 px solid  coral;
+border: 1 px solid  #175264;
 font-size: 20px;
 color: rgb(85, 85, 85);
 background: white;
@@ -63,13 +62,13 @@ background: white;
 }
 
 #plus  {
-    background-color: rgba(250, 223, 165, 0.219)
+    background-color: #f4964433;
 }
 #gratis {
-background:  rgba(250, 223, 165, 0.863);
+background:  #f49644a6);
 float: right;
 border-right: none;
-border-left: 4px solid rgb(250, 223, 165) ;
+border-left: 4px solid #ee7043 ;
 text-align: right;
 }
 /* #gratis:hover,
@@ -79,11 +78,11 @@ text-align: right;
 
 
 #premium{
-    background:  rgba(250, 223, 165, 0.445);
+    background:  #f4964433;
     }
 #premium .package__title{
  color: rgb(0, 0, 0);
 }
 #premium .package__subtitle{
-color: rgb(68, 68, 68);
+color: white;
 }
