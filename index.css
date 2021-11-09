@@ -2,8 +2,14 @@ main{
     padding: 32px;
 }
 
-#descripcion-del-producto { 
-    background: url(../Imagenes/freedom.jpg) left 10% bottom 20%/cover no-repeat border-box padding-box, #fdc93f;
+.imagen {
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+}
+    #descripcion-del-producto { 
+    background: url("freedom.jpg")
+     left 10% bottom 20%/cover no-repeat border-box padding-box, #fdc93f;
     /* background: url("fondoinicio.jpg");
     background-size: cover;
     background-position: left 10% bottom 20%; */
@@ -12,11 +18,12 @@ main{
     background-clip: border-box;*/
    /*background-image:linear-gradient(180deg,#fdc93f, #ee7043, rgb(252, 46, 46) ) ;*/
    /*background-image: radial-gradient(ellipse farthest-corner at 20% 50%  ,#fdc93f, #ee7043, rgb(252, 46, 46)); */
-    width: 100vh;
-    height:33vh; 
+    width: 100vw;
+    height: 60vh; 
     margin-top: 2.75rem;
     /*border: 5px dashed #fdc93f; */
-    position: relative; }
+    position: relative; 
+}
  .section-title {
     color: #175264;
     text-align: center;
@@ -129,6 +136,58 @@ text-align: center;
     margin:auto;
     padding: 1.5rem ;
 }
+
+.modal {
+    position: fixed;
+    display: none;
+    z-index: 200;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px rgb(192, 190, 190);
+
+}
+
+.modal__title{
+text-align: center;
+margin: 0 0 0 1rem 0;
+}
+
+.modal__actions {
+    text-align: center;
+}
+
+.modal__action {
+    border: 1px solid #175264;
+    background: #175264;
+    text-decoration: none;
+    color: white;
+    font: inherit;
+    padding: 0.rem 1rem;
+    cursor: pointer;
+}
+
+
+.modal__action:hover,
+.modal__action:active{
+    background: #fdc93f;
+    border-color: #fdc93f;
+}
+
+.modal__action--negative {
+    background: #ee7043;
+    border-color: #ee7043;
+}
+
+.modal__action--negative:hover,
+.modal__action--negative:active{
+    background: #175264;
+    border-color: #175264;
+}
+
 
 
 /*h1{
