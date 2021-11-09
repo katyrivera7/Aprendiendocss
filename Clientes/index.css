@@ -1,3 +1,7 @@
+main{ 
+    padding: 32px;
+}
+
 .testimonio {
 font-size: 20px;
 margin: 20px 0;
@@ -36,7 +40,6 @@ vertical-align: top;
 }
 #cliente-2 .testimonio__info {
     text-align: left;
-    text-align: right;
     padding: 14px;
     display: inline-block;
     vertical-align: middle;

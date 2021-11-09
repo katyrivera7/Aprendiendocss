@@ -3,7 +3,7 @@ main {
 }
 
 .background {
-    background: url(../fondoinicio.jpg) center/cover;
+    background: url(../Imagenes/fondoinicio.jpg) center/cover;
     filter: grayscale(10%);
     width: 100%;
     height: 100%;
