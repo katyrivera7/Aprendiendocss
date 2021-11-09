@@ -1,18 +1,20 @@
 *{
     box-sizing: border-box
 }
+
 body {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
 
 .backdrop {
-    position: relative;
+    position: fixed;
+    display: none;
     top: 0;
     left: 0;
     z-index: 100;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background-color: rgb(117, 115, 115);
 }
 
@@ -20,7 +22,7 @@ body {
     width: 100%;
     position: fixed;
     background-color: #175264;
-    padding: 8px 14px;
+    padding: 0.5rem 1rem;
     z-index: 1;
 }
 .titulo-principal > div {
@@ -29,9 +31,9 @@ body {
  .main-header_brand{
      color: #fdc93f;
      text-decoration: none;
-     font-weight: 700;
-     font-size: 22px;
-     height: 30px;
+     font-weight: bold;
+     font-size: 1.5rem;
+     height: 1.5rem;
      /*width: 20px;*/
      display: inline-block;
      }
@@ -53,12 +55,12 @@ body {
 }
 .main-nav_item{
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 1rem;
 }  
 .main-nav_item a {
     text-decoration: none;
     font-weight: bold;
-    padding: 3px 0;
+    padding: 0.2rem 0;
     color: #f49744 
 }  
 
@@ -69,7 +71,7 @@ body {
 }
 .main-nav_item--cta a{
     color: white;
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
     border-radius:8px ;
     background:#f49744;
 }
@@ -82,8 +84,8 @@ body {
 
 .main-footer{
     background: black;
-    padding: 32px;
-    margin-top: 48px;
+    padding: 2rem;
+    margin-top: 3rem;
 }
 
 .main-footer__links{
@@ -95,7 +97,7 @@ body {
 
 .main-footer__link{
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 1rem;
 }
 
 .main-footer__link a{
@@ -114,7 +116,7 @@ body {
     font: inherit;
     background-color: #175264; 
     border: 1.5px solid #175264; 
-    padding: 8px;
+    padding: 0.5rem;
     border-radius: 8px;  
     font-weight: bold;
     cursor: pointer;

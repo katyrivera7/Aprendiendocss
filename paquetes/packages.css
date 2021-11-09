@@ -1,19 +1,19 @@
 main {
-    padding-top: 32px;
+    padding-top: 2rem;
 }
 
 .background {
     background: url(../Imagenes/fondoinicio.jpg) center/cover;
     filter: grayscale(10%);
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     position: fixed;
     z-index: -1;
 }
 
 .package {
     width: 80%;
-    margin: 16px 0;
+    margin: 1rem 0;
     border: 4px solid  #ee7043;
     border-left: none;
     position: relative;
@@ -32,7 +32,7 @@ main {
     text-decoration: none;
     color: inherit;
     display: block;
-    padding: 32px;
+    padding: 2rem;
 }
 
 
@@ -40,20 +40,20 @@ main {
     position: absolute;
     top: 0;
     right: 0;
-    margin: 35px; 
-    font-size: 24px;
+    margin: 1.2rem; 
+    font-size: 0.8rem;
     color: white;
     background: #175264;
-    padding: 3px ;
+    padding: 0.5rem ;
 }
 .package__subtitle {
    color: white; 
 }
 
 .package__info{
-padding: 16px;
+padding: 1rem;
 border: 1 px solid  #175264;
-font-size: 20px;
+font-size: 1.2rem;
 color: rgb(85, 85, 85);
 background: white;
 }
