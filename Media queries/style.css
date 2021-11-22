@@ -16,6 +16,9 @@ body{
  
 .cards{
     background-color: rgb(231, 231, 231);
+    background-image: url(../Imagenes/fotografo-paisajes.jpg) ; 
+    background-size: cover;
+    background-position: center;
 }
 
 .cards-container{
@@ -37,9 +40,31 @@ body{
     border-radius: 1rem;
 }
 
+.only-xbs{
+    display: none;
+}
+
 @media screen and ( max-widht : 49rem ) {
     .cards-item{
         width: 28%;
         height: 20rem;
+    }  
+    .cards{
+        background-image: url(../Imagenes/imagen2.jpg) ; 
+    }
+} 
+@media screen and ( max-widht : 100rem ) {
+    .cards{
+    background-image: url(../Imagenes/imagen3.jpg) ;
+    }
+
+    .cards-container{
+        max-width: auto;
+    }
+    .cards-item{
+        width: 14%;
+    }
+    .only-xbs{
+        display: inline-block;
     }  
 } 
