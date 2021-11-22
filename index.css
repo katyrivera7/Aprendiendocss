@@ -5,7 +5,7 @@ main{
 .imagen {
     width: 100vw;
     height: 60vh;
-    position: relative;
+    position: center;
 }
     #descripcion-del-producto { 
     background: url("freedom.jpg")
