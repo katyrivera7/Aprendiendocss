@@ -1,0 +1,45 @@
+/* 
+body{ 
+    background-color: #175264;
+}
+
+@media screen and ( min-widht : 900px ) {
+    body{
+        background-color: #fdc93f;
+    }    
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+.cards{
+    background-color: rgb(231, 231, 231);
+}
+
+.cards-container{
+    padding: 1rem;
+    max-width: 51rem ;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cards-item{
+    background-color: rgb(224, 221, 221);
+    display: inline-block;
+    width: 90%;
+    height: 10rem;
+    padding: 1rem;
+    box-shadow: 0 10px 10px rgb(0, 0, 0, .3);
+    box-sizing: border-box;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+@media screen and ( max-widht : 49rem ) {
+    .cards-item{
+        width: 28%;
+        height: 20rem;
+    }  
+} 
